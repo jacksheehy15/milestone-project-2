@@ -1,0 +1,206 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <!--CDNs-->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+            type="text/css"
+            />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            type="text/css"
+            />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+            type="text/css"
+            />
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/style.css" />
+        <title>Visit Europe</title>
+    </head>
+    <!--Navigation Bar-->
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #dee0e3;" >
+  <a class="navbar-brand" href="index.html">
+  <img src="images/logo.png" alt="Visit Europe Logo" class="navbar-logo"  href="index.html" width="140" height="140">
+  </a>
+  <button class="navbar-toggler active" type="button" data-toggle="collapse" 
+  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+  aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-primary font-weight-bold text-uppercase" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <!--Destination Dropdown-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-primary font-weight-bold text-uppercase" href="#" i
+        d="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Destinations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item font-weight-bold text-uppercase" href="dingle.html" style="color:3e6bad;">Dingle</a>
+          <a class="dropdown-item text-primary font-weight-bold text-uppercase" href="london.html">London</a>
+          <a class="dropdown-item text-primary font-weight-bold text-uppercase" href="rome.html">Rome</a>
+          <a class="dropdown-item text-primary font-weight-bold text-uppercase" href="paris.html">Paris</a>
+           <a class="dropdown-item text-primary font-weight-bold text-uppercase" href="paris.html">Brussels</a>
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-primary font-weight-bold text-uppercase" href="support.html">Support <span class="sr-only"></span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--Carousel Wrapper-->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 col-xl-12">
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    <li data-target="#carousel-example-2" data-slide-to="3"></li>
+  </ol>
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100 brussels-image" src="images/brussels.jpg"
+          alt="First slide" >
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+         <a href="paris.html" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Brussels, Belgium</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="images/paris.jpg"
+          alt="Second slide">
+        <div class="mask rgba-black-slight"></div>
+      </div> 
+      <div class="carousel-caption">
+        <a href="paris.html" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Paris, France</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="images/rome.jpg"
+          alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+         <a href="paris.html" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Rome, Italy</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="images/london.jpg"
+          alt="Second slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <a href="paris.html" class="btn btn-primary btn-lg " role="button" aria-disabled="true">London, UK</a>
+      </div>
+    </div>
+  </div>
+  <!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  </div>
+</div>
+</div>
+<!--Getaway Heading-->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12">
+<h1 class="text-center" style="font-family:typewolf;">Find Your Perfect Getaway!</h1>
+</div>
+</div>
+</div>
+<!--Getaway Location 1-->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-6">
+<div class="card" style="width: 100%%;">
+  <img class="card-img-top" src="images/brussels2.jpg" alt="image test">
+  <div class="card-body">
+    <h5 class="card-title">Brussels, Belgium</h5>
+    <p class="card-text">The capital city of Belgium, full of historical qualities.</p>
+    <a href="#" class="btn btn-primary">Take me there !</a>
+  </div>
+</div>
+</div>
+<!--Getaway Location 2-->
+<div class="col-md-6">
+<div class="card" style="width: 100%%;">
+  <img class="card-img-top" src="images/paris2.jpg" alt="image test">
+  <div class="card-body">
+    <h5 class="card-title">Paris, France</h5>
+    <p class="card-text">The capital city of France and the euro capital of the world! </p>
+    <a href="#" class="btn btn-primary">Take me there !</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!--Getaway Location 3-->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-6">
+<div class="card" style="width: 100%%;">
+  <img class="card-img-top" src="images/rome2.jpg" alt="image test">
+  <div class="card-body">
+    <h5 class="card-title">Rome, Italy</h5>
+    <p class="card-text">The capital city of Italy, and a famous Italian commune.</p>
+    <a href="#" class="btn btn-primary">Take me there !</a>
+  </div>
+</div>
+</div>
+<!--Getaway Location 4-->
+<div class="col-md-6">
+<div class="card" style="width: 100%%;">
+  <img class="card-img-top" src="images/london2.jpg" alt="image test">
+  <div class="card-body">
+    <h5 class="card-title">London, UK</h5>
+    <p class="card-text">The 21st century Capital of England and the UK. </p>
+    <a href="#" class="btn btn-primary">Take me there !</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<!-- CDNs -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" 
+  integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" 
+  integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
