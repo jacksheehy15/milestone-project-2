@@ -1,12 +1,55 @@
+/*Body Work */
+body {
+    background-color: #edeff2;
+    padding-top: 110px;
+}
+
 /* NavBar Work */
 
-.navbar-logo{
-    width: 120px;
-    height: 120px;
+#navBar{
+    width: 100%;
+    height: 590px;
 }
 
-body {
-    margin-top: 145px;
+#navbar{
+    background-color: #d9d9d9;
 }
 
-/
+.navbar-logo {
+    width: 100px;
+    height: 100px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.navbar-text {
+    color: black;
+}
+
+/*Home Page Work*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("../images/hero6.jpg") ;
+  width: auto;
+  height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+hr {
+    width:50%;
+    color: #848d9c;
+}
