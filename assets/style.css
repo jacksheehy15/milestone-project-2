@@ -2,6 +2,7 @@
 body {
     background-color: #edeff2;
     padding-top: 110px;
+    font-family: sans-serif, serif;
 }
 
 /* NavBar Work */
@@ -12,7 +13,8 @@ body {
 }
 
 #navbar{
-    background-color: #d9d9d9;
+    background-color: #8facdb;
+    word-spacing: 10px;
 }
 
 .navbar-logo {
@@ -52,4 +54,14 @@ body, html {
 hr {
     width:50%;
     color: #848d9c;
+}
+
+/*Footer Work*/ 
+.page-footer {
+    background-color: #8facdb;
+}
+
+/*Icon Work*/
+.icon-black {
+    color: black;
 }
