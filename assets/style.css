@@ -1,7 +1,7 @@
 /*Body Work */
 body {
     background-color: #edeff2;
-    padding-top: 110px;
+    padding-top: ;
     font-family: sans-serif, serif;
 }
 
@@ -13,7 +13,6 @@ body {
 }
 
 #navbar{
-    background-color: #8facdb;
     word-spacing: 10px;
 }
 
@@ -30,11 +29,16 @@ body, html {
     color: black;
 }
 
+.fixed-top.scrolled {
+  background-color: #8facdb !important;
+  transition: background-color 400ms linear;
+}
+
 /*Home Page Work*/
 .home-hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("../images/hero6.jpg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),url("../images/hero6.jpg") ;
   width: auto;
-  height: 550px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,7 +77,8 @@ hr {
 /*Tomorowland Page Work*/ 
 
 .tml-hero-image{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),url("../images/tml-hero.jpg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),url("../images/tml.jpg");
+  margin-top: 50;
   width: auto;
   height: 540px;
   background-position: center;
