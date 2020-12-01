@@ -80,26 +80,18 @@ and feel. This was important to me as my aim was to create an online space that 
 throughout Cornwall, from the shades of blue in the ocean to the rolling greens of the countryside, and golds of soft sand beaches.
 
 Colours I used are:
-
-* f5f5f5 - Light Grey - Background Colour
-* 8facdb - Light Blue - Secondary Colour
+* f5f5f5 - Light Gray - Primary Color
+* bbbdf2 - Light Purple - Header Colour
+* 848d9c - Lighter Purple - Secondary Footer Colour
 
 The primary colour, Light Grey (f5f5f5), was used throughout the pages to give the whole site consistency. I found that it gives the page a nicer
 overall feeling and makes the text less harsh on the eye and therefoere easier to read.
 <br>
-The secondary color, Light Blue (8facdb), was used for the Navbar and the footer. I felt as if this was an appropriate color as it fits nicely with the colors from the festival hero images.
+The secondary color, Light Purple (bbbdf2), was used for the Navbar and the footer. I felt as if this was an appropriate color as it fits nicely with the colors from the festival hero images.
+
 <br>
 
-
-The secondary colour, Antique White (F8E5D0), was used only in the footer to give a sense of the beaches and golden sand. This broke away well
-from the rest of the page, making it clear to the user that they are at the bottom of the page. It also worked well with the rest of the
-colours used on the page, complimenting them and feeding into the beachy feel I wanted to create.<br>
-Throughout the site, I used Viridian Green (01A1B1) as my accent colour. This colour was pulled from the ocean of the hero image used on my home
-page. I used this colour for all headings, all buttons across the pages, the back-to-top button, the social links in the footer, and any active
-text, i.e. the current page the user is on. I then took this colour and made it a slighlty darker shade, Cadet Blue (61999E), to be used when all of
-the buttons were hovered over to provide the user and let them know they are able to interact with a button.<br>
-I opted for Black (00000) as my text colour to make sure all the words clear and easy to read. As stated above, the headers and the current active
-page shown on the navbar where the accent colour.
+I also used a lighter shade of Purple (848d9c) for the footer also, to give it nice contrast. I think it went well with the original color of purple I have already selected throughout the site.
 
 ##### 2. Font
 
