@@ -68,6 +68,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size:  1.875em;
 }
 
 hr {
@@ -243,4 +244,6 @@ h2 {
     width: 100%;
     margin-bottom: 40px;
 }
-
+ .btn:hover{
+     background-color: red;
+ }
