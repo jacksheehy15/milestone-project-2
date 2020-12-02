@@ -1,4 +1,4 @@
-/* Navbar coloring on scroll */
+// Navbar color on scroll
 $(function () {
   $(document).scroll(function () {
     var $nav = $(".fixed-top");
@@ -16,3 +16,5 @@ function initMap() {
   });
 }
 
+// Back to Top button
+mybutton = document.getElementById("topbutton");

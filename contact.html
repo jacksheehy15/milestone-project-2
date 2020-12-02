@@ -56,7 +56,7 @@
         </div>
       </li>
       <li class="nav-item active ">
-        <a class="nav-link text-white" href="support.html"><strong>Support</strong> <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="contact.html"><strong>Contact</strong> <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
@@ -65,54 +65,53 @@
 <!--Hero Images-->
 <div class="support-hero-image mb-5">
   <div class="support-hero-text">
-    <h1> Have a question? </h1>
-    <div class="text-center">
-  <a href="" class="btn btn-light btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm"><strong>Send Us a Message !</strong> </a>
-</div>
+    <h1>Contact Us ! </h1>
   </div>
 </div>
 <hr>
 <!--Contact Us-->
-<div class="container-fluid mt-5">
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="card">
-                  <a class="phone-ic text-center fa-4x" href="" target="_blank">
-                    <i class="fa fa-phone-square icon-cog white-text mr-4"> </i>
-                    </a>
-                <div class="card-block text-center">
-                    <h4 class="card-title font-weight-bold">Call Us! </h4>
-                    <p class="card-text">Feel free to call us on<a href="tel:0838968686"> +353 83 896 8686</a></p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+ <section class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="page-head text-center fest-header">Contact</h1>
+                    <p class="text-center">Do you have a question/enquiry ? <br>Send us a message !</p>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <form onsubmit="return sendMail(this);" action="contact.html" class="form-style text-center" id="myForm">
+                <div class="form-group">
+                    <label for="name" class="form-labels" >Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name" required>   
+                </div>
+                <div class="form-group">
+                    <label for="emailaddress" class="form-labels" >Email Address</label>
+                    <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="email@example.com" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-labels">What would you like to know?</label>
+                    <textarea class="form-control" id="message" placeholder="Message" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg outline-dark button-colour sub-btn">Submit</button>
+            </form>
+        </section>
+        <!-- Thank you Modal -->
+        <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center modal-head">Thank you</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body text-center modal-content">
+                        <p>We look forward to helping you with your query and we'll be in touch very soon. Please check your email for confirmation.<br>Dreckly ('Directly' in Cornish)</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-            <div class="col-sm-4">
-            <div class="card">
-                 <a class="twitter-ic text-center fa-4x" href="" target="_blank">
-                    <i class="fa fa-twitter-square icon-cog white-text mr-4"> </i>
-                    </a>
-                <div class="card-block text-center">
-                    <h4 class="card-title font-weight-bold">Send us a Tweet ! </h4>
-                    <p class="card-text">Drop us a tweet on Twitter ! <a href="https://www.twitter.com" target="_blank">@festfinder</a></p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-            <div class="col-sm-4">
-            <div class="card">
-                 <a class="email-ic text-center fa-4x" href="" target="_blank">
-                    <i class="fa fa-at icon-cog white-text mr-4"> </i>
-                    </a>
-                <div class="card-block text-center">
-                    <h4 class="card-title font-weight-bold">Email Us!</h4>
-                    <p class="card-text">Send us an email ! <a href="mailto:info@festfinder.ie" target="_blank"> info@festfinder.ie</a></p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
     
     <!--disclaimer-->
     <div class="container">
@@ -122,50 +121,7 @@
     </div>
     </div>
     </div>
-    <div class="modal fade " id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <form action="">
-      <div class="modal-body mx-3">
-        <div class="md-form mb-5">
-          <i class="fa fa-user prefix grey-text"><label data-error="wrong" data-success="right" for="form34">Your name</label></i>
-          <input type="text" id="form34" class="form-control validate" required />
-          
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fa fa-envelope prefix grey-text">  <label data-error="wrong" data-success="right" for="form29">Your email</label></i>
-          <input type="email" id="form29" class="form-control validate" required />
-        
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fa fa-tag prefix grey-text"><label data-error="wrong" data-success="right" for="form32">Subject</label></i>
-          <input type="text" id="form32" class="form-control validate" required />
-
-        </div>
-
-        <div class="md-form mb-5">
-          <i class="fa fa-pencil prefix grey-text"><label data-error="wrong" data-success="right" for="form8">Your message</label></i>
-          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
-
-        </div>
-
-      </div>
-      <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-primary" data-dismiss="modal">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
-      </div>
-      </form>
-    </div>
-  </div>
-</div>
+    
   <!--FAQ Section-->
 <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
   <div class="container-fluid">
