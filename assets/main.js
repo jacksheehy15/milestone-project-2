@@ -34,9 +34,11 @@ function myMap() {
                                                                      An out-of-season population of about sixty swells in the 
                                                                      summer season to about four hundred, with the occupants of 
                                                                      the seasonal holiday homes arriving.`},
-                {"lat": 51.1385897271487, "lng": 4.364462899236603, "name": "Cleydael Golf & Country Club", "information": `Cleydael Golf and Country Club is a golf club located in Aartselaar, Belgium and Is one 
-                of the main Golf courses in Belgium, housing an 18 hole, Par 72 course, with stunning views it is hard to not want to play a round there !`} 
-]; 
+                 {"lat": 51.07880455928046 , "lng": 4.501236164832443, "name": "Fort Van Duffel", "information": ` A former WWI army railroad fortress being part of the former Antwerp Fortress belt. Where you can receive a guided tour (reservation recommended) 
+                 explaining the history and current use of the fortress before heading inside to have a good eat`},
+                {"lat": 51.139378146065134, "lng": 4.363397707496227, "name": "Cleydael Golf & Country Club", "information": `Cleydael Golf and Country Club is a golf club located in
+                                                                         Aartselaar, Belgium and Is one of the main Golf courses in Belgium, housing an 18 hole, Par 72 course, with stunning views it is hard to not want to play a round there !`} 
+];
   /* Initialize an InfoObj - this will store the information displayed in each info window */
   var InfoObj = [];
   /* LOOP OVER MyMarks - INSIDE THIS LOOP WE WILL CALL OUR MARKERS */
