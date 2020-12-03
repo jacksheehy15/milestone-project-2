@@ -26,7 +26,7 @@ View live project <a href="">here
 * [Acknowledgements](#acknowledgements)
 ***
 
-## ![Fest Finder Logo](images/logo.png)
+## ![Fest Finder Logo](images/logo2.png)
 
 ### Fest Finder Logo
 
@@ -83,6 +83,7 @@ Colours I used are:
 * f5f5f5 - Light Gray - Primary Color
 * bbbdf2 - Light Purple - Header Colour
 * 848d9c - Lighter Purple - Secondary Footer Colour
+* 95a0cf - Light Baby Blue - Button Hover color
 
 The primary colour, Light Grey (f5f5f5), was used throughout the pages to give the whole site consistency. I found that it gives the page a nicer
 overall feeling and makes the text less harsh on the eye and therefoere easier to read.
@@ -92,6 +93,8 @@ The secondary color, Light Purple (bbbdf2), was used for the Navbar and the foot
 <br>
 
 I also used a lighter shade of Purple (848d9c) for the footer also, to give it nice contrast. I think it went well with the original color of purple I have already selected throughout the site.
+<br>
+I used Light Baby Blue (95a0cf) as a color for when the user hovers over a button, I used a psuedo class for this.
 
 ##### 2. Font
 
