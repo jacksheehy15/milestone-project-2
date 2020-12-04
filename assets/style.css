@@ -51,7 +51,7 @@ body, html {
 
 /*Home Page Work*/
 .home-hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),url("../images/crowd.jpg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("../images/dingle.jpg") ;
   width: auto;
   height: 600px;
   background-attachment: fixed;
@@ -183,6 +183,26 @@ hr {
 }
 
 .support-hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/*Support Page Work*/ 
+.dingle-hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),url("../images/contact.jpg") ;
+  width: auto;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.dingle-hero-text {
   text-align: center;
   position: absolute;
   top: 50%;
