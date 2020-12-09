@@ -26,9 +26,9 @@ View live project <a href="">here
 * [Acknowledgements](#acknowledgements)
 ***
 
-## ![Fest Finder Logo](images/logo2.png)
+## ![Visit Dingle Logo](images/logo2.png)
 
-### Fest Finder Logo
+### Visit Dingle Logo
 
 ***
 ## **What does it do and what does it need to fulfill?**
