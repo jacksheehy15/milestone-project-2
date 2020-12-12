@@ -31,7 +31,7 @@ function myMap() {
   for (i = 0; i < myMarks.length; i++) {
     let contentString = '<h3>' + myMarks[i].name + '</h3>' +
     '<p>' + myMarks[i].information + '</p>'
-    ;
+    ; 
     
     const marker = new google.maps.Marker({
       position: new google.maps.LatLng(myMarks[i].lat, myMarks[i].lng),
