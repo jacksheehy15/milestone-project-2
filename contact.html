@@ -25,6 +25,14 @@
         <title>Visit Dingle</title>
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <link rel="icon" href="images/logo.png" type="image/png"/>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_ocoKSRGZtz4KqxaX4JBub");
+   })();
+</script>
     </head>
     <!--Navigation Bar-->
 <body>
@@ -70,16 +78,16 @@
             <form onsubmit="return sendMail(this);" action="contact.html" class="form-style text-center" id="myForm">
                 <div class="form-group">
                     <label for="name" class="form-labels" >Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Name" required>   
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>   
                 </div>
                 <div class="form-group">
                     <label for="emailaddress" class="form-labels" >Email Address</label>
-                    <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="email@example.com" required>
+                    <input type="email" name="emailaddress" class="form-control" id="emailaddress" aria-describedby="emailHelp" placeholder="email@example.com" required>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                     <label for="message" class="form-labels">What would you like to know?</label>
-                    <textarea class="form-control" id="message" placeholder="Message" rows="10" required></textarea>
+                    <textarea class="form-control" name="projectsummary" id="message" placeholder="Message" rows="10" required></textarea>
                 </div>
                 <button type="submit" class="btn btn-lg btn-primary outline-dark button-colour sub-btn">Submit</button>
             </form>
@@ -143,6 +151,8 @@
     <a href="index.html"><strong>Visit Dingle</strong></a>
   </div>
 </footer>
+<!--EmailJS Script-->
+<script src="assets/js/sendEmail.js"></script>
 <!--Google Map API-->
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3CcVHyb-DqQWeFO0oq-QK6VO4CwKVh4c&callback=initMap&libraries=&v=weekly"
@@ -153,6 +163,6 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <!-- Script files -->
-        <script src="assets/main.js"></script>
+        <script src="assets/js/main.js"></script>
 </body>
 </html>
