@@ -43,7 +43,7 @@ mobile. The jQuery framework was used amoungst my own JavaScript code for easier
 
 
 ## **User Experience**
-<div style="text-align:center"><img src="assets/images/response.png" alt="Fest Finder Am I Responsive image"></div>
+<div style="text-align:center"><img src="assets/images/response.PNG" alt="Fest Finder Am I Responsive image"></div>
 
 #### User Stories:
 
