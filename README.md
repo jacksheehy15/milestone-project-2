@@ -32,10 +32,10 @@ View live project <a href="">here
 
 ***
 ## **What does it do and what does it need to fulfill?**
-This is my second milestone project where I have designed, created and built a fully responsive and interactive website for Music Festival go-ers. 
-My goals with this website are to attract new people to the world of Music Festival's and to give present Music Festival go-ers an insight into my 4 favorite festivals and why they should visit them !
+This is my second milestone project where I have designed, created and built a fully responsive and interactive website for my hometown Dingle. 
+My goals with this website are to attract new people to Dingle and to present users with the information that should attract them to visiting Dingle.
 
-I have taken my knowledge learned from the first five modules of the Full Stack Web Developer course, (HTML, CSS Fundamentals, User Centric Frontend 
+I have taken my knowledge learned from the first five modules of the Full Stack Software Developer course, (HTML Fundamentals, CSS Fundamentals, User Centric Frontend 
 Development, JavaScript Fundamentals and Interactive Frontend Development Modules) to provide a clear, functioning and responsive website that 
 demonstrates a proficient use of HTML5, CSS3 and JavaScript. The Bootstrap Framework was used along side these programming languages to help give
 the site a clear strucutre and ensure the site has a high standard of responsiveness on desktop, tablet and
@@ -49,13 +49,13 @@ mobile. The jQuery framework was used amoungst my own JavaScript code for easier
 
 * User Goals:
     * As a user, I want to be able to navigate through the entire site, comfortably and securely.
-    * As a user, I want to be able to easily contact the site with any initial queres that I may have, submit questions, and recieve an
+    * As a user, I want to be able to easily contact the site with any initial queries that I may have, submit questions, and recieve an
     acknowledgement of my message being received, and a due response.
-    * As a user, I want to learn more about the festivals and where they are situated, and what can be seen and done there. This includes information
+    * As a user, I want to learn more about Dingle and where it is situated, and what can be seen and done there. This includes information
     such as where to eat and where to stay.
-    * As a user, I want to be able to follow links from the designated festival to the main website of interest.
-    * As a user, I want to learn about what genres of music are played at the festivals.
-    * As a user, I want to feel comfortable and informed about visiting the festival.
+    * As a user, I want to be able to follow links from the designated location to the main website of interest.
+    * As a user, I want to learn about the attractions the town has.
+    * As a user, I want to feel comfortable and informed about visiting Dingle.
     * As a user, I want to be able to access the site's social media accounts in order to learn more.
     
 * For the user, the site assists in meeting the user goals by:
@@ -64,9 +64,6 @@ mobile. The jQuery framework was used amoungst my own JavaScript code for easier
     any page to take them back to the home page.
     * Providing a clean, basic form that doesn't overwhelm or confuse the user which they can fill out to submit any questions they may have.
     Upon submission the user gets a modal pop up providing them with feedback that their query has been submitted successfully.
-
-
-
     * The footer contains all the social media links the user will need to use for follwing and learning more about this site.
   
 
@@ -76,8 +73,8 @@ mobile. The jQuery framework was used amoungst my own JavaScript code for easier
 ##### 1. Colour Scheme
 
 I chose colors that would be soothing and calming on first glance of the website, and not intrusive. The muted tones give the page a serene look
-and feel. This was important to me as my aim was to create an online space that promotes and represents a feeling of what colours can be found
-throughout Cornwall, from the shades of blue in the ocean to the rolling greens of the countryside, and golds of soft sand beaches.
+and feel. This was important to me as my aim was to create an online space that promotes and represents a feeling of what colours can be pleasent for the user to look a. I feel like the light and dark purple contrast
+well on the navbar and footer and also the light gray background color is pleasent for the user.
 
 Colours I used are:
 * f5f5f5 - Light Gray - Primary Color
@@ -98,47 +95,41 @@ I used Light Baby Blue (95a0cf) as a color for when the user hovers over a butto
 
 ##### 2. Font
 
-I decided to use two fonts throught my site. I included these fonts by inserting an _import_ link of Google Fonts API into the top of my 
-style.css.<br>
-The font I chose for the body text on the pages was 'Raleway', with a fall back of 'Sans-serif' should the site not load the import correctly. I
-found the 'Raleway' font was clear, easy to read and fed into the simple, minimal look and feel I was trying to achieve with the site.<br>
-The second font I used was 'Lato', again with the fallback of 'Sans-serif'. I used this for anything I wanted to stand out a little more as I felt
-it had a more structured, bold format. This included the navbar, footer, headlines, sub-headings, buttons and forms. I used this font for all
-of the form as I felt that with basic content it didn't need different fonts. Overall, I wanted a font that complemented the body text without
-being wildly different from it. This would have made the page too busy and drawn attention away from the beautiful, peace-invoking imagery it was
-sitting alongside. Clarity was key and the combination of Raleway and Lato helped me achieve that objective.
-When it came to font weight, between the two fonts, I varied between 300 and 500 for differnt factors across the pages. 400 took precendent as the
-average font weight, and then card heads were given 500 to stand out more. Whereas, the page headings, info window headings, and modal content
-looked best with using 300.
+I decided to use two fonts throught my site. I included these fonts by inserting an _import_ link of Google Fonts API into the top of my html documents<br>
+The font I chose for the body text on the pages was 'Roboto', with a fall back of 'Sans-serif' should the site not load the import correctly. I
+found the 'Roboto' font was clear, easy to read and fed into the simple, minimal look and feel I was trying to achieve with the site.
+ Clarity was important throughout my project and I felt as though Roboto was a safe, reliable font to use.
+When it came to font weight, I used to stock font weight for most of the page except the titles , I used the 'large' font size.
 
 ##### 3. Logo
 
-The logo was created using an online design tool called Canva. I created a custom canvas to fit my required dimensions and set the background to
-be transparent as I was using a transparent navbar. When it came to designing the logo I wanted a symbol that represented Cornwall, and decided
-that an engine house is the embodiment of Cornish culture. I selected the engine house from Google's selection of free images and played with the
-contrast and saturation to turn it into a silhouette that would stand out clearly against the transparent/white background of the navbar. It also
-matched the black font of the logo "Experience Cornwall". I chose the font 'Lato' for this text to match the font used for headings throughout the
+The logo was created using an online design tool called Free Logo Design. I created a custom canvas to fit my required dimensions and set the background to
+be transparent as I was using a transparent navbar. when it came to designing the logo I typically like a plain yet attrctive logo so I used a simple "Visit Dingle" text in the color white.
+i picked the color white for the logo so It would have a nice contrast between the purple navbar and also, the color white looks nice on the raw hero images 
+found on the website before you scroll when the navbar goes purple.
+It also matched the white font of my nav links on the navbar. I chose the font 'Roboto' for this text to match the font used for headings throughout the
 site, keeping a clear consistency. It suited the site's branding and complemented all my other design choices well. 
 
 ##### 4. Composition
 
-There is a clear structure throughout the site. Each of the main pages has a hero image at the top to engage the user. I also implemented content
+There is a clear structure throughout the site. Each of the main pages has a hero image at the top with some text to engage the user. I also implemented content
 hinting on all the pages to encourage scrolling and more user interaction. 
 To help me keep the design neat and consistent, I had all content displayed central, with good margins for desktop use to avoid anything being cut
-off the screen. I ensured all the content is full width for mobile sizes, utilising all of the space available. I found that having to scroll down
-the home page made it feel like the story was unfolding which I thought was a nice touch. The Google map on the expereince page has been set to full
-width to keep the map easily readable across all screen sizes. I made use of the 'Rule of Thirds" in the 'Top 3 Recommendations' section to help
-draw the viewer's eye into the composition, rather than just glancing at the center.
+off the screen. I ensured all the content is full width for mobile sizes, utilising all of the space available. I feel like scrolling down 
+on the home page ave it a nice touch which greeted the user with 2 pieces of information regarding Dingle.
+The Google map on the Dingle page has been set to full
+width to keep the map easily readable across all screen sizes. 
 
 ##### 5. Wireframes
 
-Wireframes for this project were created using Figma. I initially sketched rough ideas down on paper and then further constructed them on the 
-computer using Figma to create a more detailed mockup. The final pages I ended up with on the website did not vary too much from the wireframes I
+Wireframes for this project were created using Figma. I did enjoy the wireframing part of this project because that is where I can 
+see if something will work or not on the site.
+The final pages I ended up with on the website did not vary too much from the wireframes I
 made during the planning stages. Find the links to these wireframes below:
 
 * [Home Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-home.png)
 
-* [Activities Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-activity.png)
+* [Dingle Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-activity.png)
 
 * [Contact Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-contact.png)
 
@@ -174,35 +165,24 @@ of the page, and the modal pop up on submission of the contact form.
 
 * [Github](https://github.com) - used to host the project's repository and store the code, as well as host the website on Github pages.
 
-* [Unsplash](https://unsplash.com/) - used to find images for use across the site.
-
-* [Pexels](https://www.pexels.com/) - used to find images for use across the site.
-
-* [Pixbay](https://pixabay.com/) - used to find images for use across the site.
-
 * [Google Images](https://google.com) - used to find images for use across the site.
-
-* [YouTube](https://www.youtube.com/) - used to source and embed a video into the home page.
 
 #### Tools
 
-* [Google](https://www.google.co.uk/) - was used for researching various techniques, styles and information.
+* [Google](https://www.google.com/) - was used for researching various techniques, styles and information.
 
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
 
-* [Google Maps](https://www.google.co.uk/maps) - used to grab the coordinates of locations and get details of locations - phone numbers, address and
+* [Google Maps](https://www.google.co.uk/maps) - used to grab the coordinates of locations and get details of locations -
 websites.
 
 * [Google Developers](https://developers.google.com/maps/documentation/?_ga=2.257569803.1237416838.1604925384-1643581518.1600963572) - used for
-reading and learning the documentation best advised by Google to implement Google Maps API.
+reading and learning the documentation best advised by Google to implement Google Maps and Places API.
 
 * [Figma](https://www.figma.com/) - used for creating the wireframes in the design stage.
 
-* [Coolors](https://coolors.co/) - used to find and compare colours that complimented one another, and retrieve names of colours.
 
-* [Canva](https://www.canva.com/) - was used to design and create the logo, create the favicon logo, and also to resize images to specific dimensions.
-
-* [Picresize](https://picresize.com/) - was also used to resize images for less specific wants, such as 25% or 50% smaller.
+* [Free Logo Design](https://www.freelogodesign.org/) - was used to design and create the logo, create the favicon logo, and also to resize images to specific dimensions.
 
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for showing the responsiveness of the site across different screen sizes and providing
 the image at the top of this document.
@@ -223,98 +203,168 @@ organised fashion.
 * Navbar - Featured across all pages. Site visitors can use the links on the left to navigate between all pages on the website. These links also
 collapse down into a hamburger icon at smaller screen sizes. The logo, found on the left, can be clicked on all pages to take users back to the
 home page. The navbar is also fixed, which enables the user to easily navigate between the pages of the website. The navbar starts off as transparent,
-and then becomes white as the user scrolls to ensure it is always clear and legible.
+and then becomes purple as the user scrolls to ensure it is always clear and legible.
 
-* Footer - Also featured across all pages. Users will find clickable social icons linking to the corresponding social media pages.
+* Footer - Also featured across all pages. Users will find clickable social icons linking to the corresponding social media pages i.e facebook, twitter, tripadvisor, instagram.
+There is also a copyright section at the bottom of the footer.
 
-* Hero images -  These can be found across the three main pages (History, Experience and Contact), and provide a visual reference to what the user
-can expect to find and experience in Cornwall.
+* Hero images -  These can be found across the three main pages (Home, Dingle, Contact, and provide a visual reference to what the user
+can expect to find and experience in Dingle.
 
-* Home Page - This page showcases a beginner's guide to Cornwall, teaching and informing the user about the history of Cornwall. It contains
-corresponding images to the story being told, and an embedded YouTube video that will help the user learn how to make a Cornish pasty.
+* Home Page - This page showcases a hero image of the fihing port in Dingle as the hero image, then there is a featured section with image 
+and text based on the Dingle Food Festival and The Dinge Distillery, the two content sections also have links to a designaed website related to 
+the content and then this is followed by The footer.
 
-* Experience Page - This page was created to help the user understand what Cornwall has to offer. It makes use of Google Maps API, incorporating
-clickable buttons above the map to make the user interact with the map. On the click of each button, markers will drop on the map, and then the
-markers themselves once clicked will open an info window. The info windows contain information on each location such as the name and
-address of the placed marker. The info windows also showcase a phone number and a clickable link to a corresponding website (other than the beach
-locations which didn't have websites). I felt the user would be overwhelmed if the map presented them with every single beach, restaurant, hotel
-etc. so I used my own extensove knowledge of Cornwall to help me hand pick the best locations in each category. I felt this added to the user
-expereince because it meant the map would be clearer and provide them with a more streamlined set of recommendations.<br>
-Also, upon clicking each button, 'Top 3 Recommendations' will appear below the map for each category. These are presented as cards, with images at
-the head and then brief descriptions and/or encouraging statements followed by clickable buttons to the corresponding websites. I felt this added
-a personal touch and gave the user encouragement when choosing what and where to visit on their trip to Cornwall.<br>
-I had an issue with the positioning of my markers that I wasn't able to solve. All of the markers' coordinates were pulled from the respective
-locations on Google Maps. However, once they were set and zoomed in on, I noticed that all my markers were positioned slighlty to the left of each
-location. Through talks with tutor support, it concluded that this may be due to some default code written for Google Maps. I did attempt to
-override it using various techniques that I found during my research, but I was ultimately unable todo so. That being said, it does not prove to be
-a major issue for my site as the location coordinates I set match the 'true' positon of the locations' coordinates.
+* Experience Page - This page was created to help the user understand what Dingle has to offer. It makes use of Google Maps API, incorporating
+clickable buttons above the map to make the user interact with the map. On the click of each button, markers will drop on the map.
+When the user clicks on the marker a little information box will pop up, giving a litle rundwon of the location and a link to the designated website of said location. 
+I felt the user would be overwhelmed if the map presented them with every single resaurant and hotel in Dingle, so I used my extensive knowledge of Dingle to hand 
+pick 4 of the best restaurants and 4 of the best Hotels around and put them on the map.<br>
+I had a major issue in regards to the Google Maps API which took me quite some time to figure out but thanks to Stack Overflow and CI Tutors I got it working eventually.
 
 * Contact Page - This page provides a form users can fill out to contact the site. They can use this for general enquiries. Once the user submits
-the form, they will be presented with a modal pop up thanking them for their message and informing them to check their email account. They're also
-made aware that a response will be with them shortly. This provides the user with feedback that the query has gone through successfully. It is
-important to provide feedback to the user so they feel their actions have been validated.<br>
-I used the word 'Dreckly', which is a Cornish colloquialism that implies something will be done 'Directly' i.e. 'soon'. I did include in brackets
-next to the word 'Dreckly' that this means 'Directly', so the user does not feel confused about the terminology.
+the form, they will be presented with a modal pop up thanking them for their message and that they chould expect a response. 
+This provides the user with feedback that the query has gone through successfully. It is
+important to provide feedback to the user so they feel their actions have been validated.
 
 * Back-to-Top Button - Each page contains a back-to-top button that will appear when the user scrolls to a set pixel height down the page, giving
 the user easier navigation around the pages and the site. 
 
-* Favicon Icon - When the user loads the web pages, a favicon image of the logo for Experience Cornwall appears in the tab at the top next to the
-name of the site.
+* Favicon Icon - When the user loads the web pages, a favicon image of "EIRE" appears in the tab at the top next to the
+name of the site. I picked EIRE for this because I felt as if it was a nice personal touch because Eire is Irish for Ireland
 
 #### Future Features
 
-* On the home/hisory page, I'd like to create a quiz that the user can take part in to test their knowledge about Cornwall after reading the
-'Beginner's Guide To Cornwall'.
-
-* Display a clickable icon as a link to a forum page where the user can dicsuss Cornwall further with other friendly visitors.
-
-* Gallery Page - A seperate page to showcase images of Cornwall and visitors' experiences of the range of activities, beach walks etc. on offer.
+* Gallery Page - A seperate page to showcase images of Dingle and visitors' experiences of the range of activities, drives, walks etc. on offer.
 This would give the user a more concrete idea of what to expect from a visit to Cornwall.
 
-* Include more markers and information to give the user an even more extensive view of what Cornwall has to offer.
+* Include more markers and information on the Google Map to give the user an even more extensive view of what Dingle has to offer.
 
-* On the scroll of the page, the hero image would zoom in.
+* On the scroll of the page, the hero image would zoom out.
 
 [Back to Top](#table-of-contents)
 
 ## **Testing**
 
-Testing can be found via this [link](https://github.com/Gregory4321/milestone-project-2/blob/master/testing.md)
+### **Testing User Stories:**
+- New user - *I am thinking of visiting Dingle and would like to get the information neccessary to visit* - 
+On the homepage, the user is met with a top-stuck navigation menu, containing **Home**, **Dingle** and **Contact**.
+There is then a picture of Dingle Harbor which teases Dingle is like to the new user.
+There is then images and text related to the Food Festival and Dingle Distillery..
+The footer at the bottom of the page consists of social media icons that the user can navigate through.
+The Dingle page would be the main point of interest for the user , as there is alot of tempting images and contnent to be found there like attractions and activities.
+The user can then navigate to the contact page where they will be greeted with a form and can get in contact with us regarding any questions they have.
+
+
+Returning user - *I want to ask a question related to Dingle , because it is possible I will visit* - The user can easlily navigate to the **Contact** page where 
+they can submit a form with their quesion - or else , the user can navigate to the botom of the page where they can find our social media links and they can pursue in asking questions there.
+
+
+Business owner - *As the business owner I want to see a consistent style throughout the whole webpage* - The business owner can navigate throughout the website and they will notice that the navbars are consistent
+design The footers are consistent across all 4 pages also. The header font used is consistent across the site and the font used is consistent for all paragraphs. The site is a well balanced site in regards to colors, It is easy on
+they eyes and is nicely designed throughout.
+
+
+### **Validating The Code:**
+- **HTML** I validated the HTML with the [W3C Markup Validation Service](https://validator.w3.org/)
+- **CSS** I validated the CSS with the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- **JavaScript** I validated the JavaScript with the [Esprima Syntax Validator](https://esprima.org/demo/validate.html)
+
+#### **Validation Results**
+##### **HTML**
+- Home Page - No Errors Found
+- Dingle Page - No Errors Found
+- Contact Page - No Errors Found
+
+##### **CSS**
+- No Errors Found
+
+
+##### **JavaScript**
+##### **main.js file**
+- 
+#### **maps.js file**
+-
+
+### **Testing on Different Browsers**
+I manually tested the website on the following browsers:
+- Chrome
+- Safari
+- Mozilla Firefox
+- Samsung Internet
+
+### **Testing responsiveness on multiple devices and screen size:**
+I manually tested the website using Chrome Developer Tools to check every single page, link etc. on as much different devices as possible.
+The devices I tested this on were: Moto G4 , Galaxy S5 , Pixel 2 and Pixel 2 XL, iPhone 6/7/8, iPhone 6/7/8Plus, iPhone X, iPad.
+I also tested my website on my own persoanl devices: MacBook Pro 16", my desktop pc with a 49" ultrawide-monitor, Samsung Galaxy S20 Ultra and a Samsung Galaxy Tab S7+.
+
+
+## **Issues Found**
+
+- the one major issue I came across in my project developement is the Google Maps API, my API key was not working for my project so I had to get a new one which was fine and I had an issue where the map would not load 
+so I navigated to the Console in Chrome Developer Tools and I realized I was missing a few semi-colons, full stops and brackets and it worked for me then.
+
 
 ## **Deployment**
+This project was developed in GitPod and deployed to the hosting platform [GitHub Pages](https://pages.github.com/)
 
-This multi-page website was developed in Gitpod and pushed to the remote repository on Github.
+I took the following steps to deploy Visit Dingle to Github pages.
+- Searched GiHub in Chrome browser and signed in using my GitHub account.
+- Clicked on [My Repositories.](https://github.com/jacksheehy15?tab=repositories)
+- Navigated to [milestone-project-1.](https://github.com/jacksheehy15/milestone-project-1)
+- Selected [Settings.](https://github.com/jacksheehy15/milestone-project-1/settings)
+- Scrolles down to the GitHub Pages are of the page.
+- Selected 'Master Branch' from the 'source' dropdown menu.
+- Confirmed my selection.
+- Blasket Sound 2021 is now live on [GitHub Pages.](https://www.google.com/images)
 
-#### Hosting on Github Pages
+### Run your project locally
+- Have git installed.
+- Visit the [Repo.](https://github.com/jacksheehy15/milestone-project-1)
+- Click 'Clone or Download' and copy the code for http.
+- Open your chosen IDE (Cloud9, Vs Code etc.)
+- Open a terminal for your root directory.
+- Type 'git clone' followed by the code taken from the repository.
+- When you have completed all these steps, you have your own version of the website !
 
-The project was deployed through Github pages. This was achieved by following these steps:
+The website can be run by opening one of the HTML files within a web browser.
 
-* Login in to Github and locate and click the Github repository on the left side of the screen.
-* At the top of the repository, locate and select the 'Settings' button.
-* Scroll down to the 'Github Pages' section.
-* Use the drop-down menu under 'Source' to change from 'none' and select 'master branch'.
-* The page then automatically refreshes and takes the user back to the top of the page.
-* Scroll back down to the 'Github Pages' section. A ribbon notification is now displayed containing the link to the deployed site.
-* The ribbon notification displays this message:  'Your site is published at https://gregory4321.github.io/milestone-project-2/'
-* I have provided this link at the top of the README file.
+Visit the link provided. Your website with any made changes will appear.
 
-#### Running Project Locally 
+Saved changes to the website will appear here after refreshing the page.
 
-To run your own version of this project, it can be cloned or downloaded from Github by following these steps:
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete. 
+It may take a moment for changes to appear on the hosted website.
 
-* Select the repository from the Github dashboard.
-* Click on the green 'Code' button, and click the 'clipboard icon' to copy the URL. It may also be displayed as a 'Clone or Download' green button.
-* Open the terminal window of your desired local IDE (Integrated Development Environment).
-* Choose the working directory to the location you would like to have the cloned repository.
-* Type 'git clone' in the terminal window, and then paste the URL you copied.
-* Press enter and the clone will be created.
 
 ## **Credits**
 
 #### Content
 
-All content on the website was written by me, the developer, with inspiration taken from other travel and informational sites. 
+All content on the website was written by me, the developer, with inspiration taken from other websites. 
+A list of the websites I used for the links on my webpage below :
+
+* [Food Festival Website ](https://www.dinglefood.com/)
+
+* [Distillery Website](https://dingledistillery.ie/)
+
+* [Facebook](https://facebook.com/)
+
+* [Twitter](https://twitter.com/)
+
+* [TripAdvisor](https://tripadvisor.com/)
+
+* [Instagram](https://instagram.com/)
+
+* [Oceanworld Aquarium](https://dingle-oceanworld.ie/)
+
+* [Sea Irish Adventures](https://irishadventures.net/irish-adventure-activities-dingle-killarney/activitiesseakayakingdinglecanoekerryireland.html)
+
+* [Wild Atalantic Way ](https://www.discoverireland.ie/wild-atlantic-way)
+
+* [Distillery Tours](https://dingle-distillery.appointedd.com/)
+
+* [Slea Head Drive](https://dingle-peninsula.ie/explore/slea-head-drive.html)
 
 #### Code
 
@@ -340,39 +390,27 @@ highlight that this video is being used for training purposes, and does not infr
 #### Media
 
 The images used on the website were taken from the listed image librarie:
-
+I used all 1920 x 1080 aspect ratio images for consistency across the pages 
 * [Google Images](https://google.com)
 
-These images were then resized to suit the needs of me, the developer, using these two sites:
 
-* [Picresize](https://picresize.com/)
+The logo image was created and exported to my computer using the site [Free Logo Design ](https://www.freelogodesign.org/)
 
-The logo image was created and exported to my computer using the site [Canva](https://www.canva.com/)
-
-The favicon image was created and exported to my computer using the site [Canva](https://www.canva.com/), and then uploaded to the site [Favicon.io]
+The favicon image was created and exported to my computer using the site [Free Logo Design](https://www.freelogodesign.org/), and then uploaded to the site [Favicon.io]
 (https://favicon.io/) to be generated as an ico image, to then be exported back to my computer and then added to my root directory on gitpod.
 
-The embedded video on the home page was imported using the iframe tag taken from online video-sharing platform:
-
-* [YouTube](https://www.youtube.com/)
 
 ## **Acknowledgements**
 
 #### Pages used for inspiration
 
-* [Visit Cornwall](https://www.visitcornwall.com/)
-
-* [Condé Nast Traveller](https://www.cntraveller.com/gallery/cornwall-beaches)
-
-* [Cornwall Guide](https://www.cornwalls.co.uk/)
+* [Dingle Wikipedia](https://en.wikipedia.org/wiki/Dingle)
 
 #### Pages used for information
 
 * [Stack overflow](https://stackoverflow.com/)
 
 * [W3schools](https://www.w3schools.com/)
-
-* [CSS-Tricks](https://css-tricks.com/)
 
 * [Code Institute](https://codeinstitute.net/)
 
@@ -382,24 +420,18 @@ The embedded video on the home page was imported using the iframe tag taken from
 
 * [YouTube](https://www.youtube.com/)
 
-* [Code Pen](https://codepen.io/)
 
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-* [Tripadvisor](https://www.tripadvisor.co.uk/)
-
-* [National Trust](https://www.nationaltrust.org.uk/)
-
-* [MDN web docs](https://developer.mozilla.org/en-US/)
-
-* [Codepen](https://codepen.io/)
 
 #### Special thanks
 
 * Seun Owonikoko @seun_mentor, my mentor, for the support and guidance she gave thoughout the build of this project.
+* Antonio Rodriguez, my temporary mentor while Seun is on leave.
 
 * Tutor Support at Code Institute for accepting my request for more time and giving me the initial push that really got me going. 
-All of the tutors that helped me from tutor support, your advice and guidance helped me more than I think you know. 
+All of the tutors that helped me especially Miklos who helped my understand Maps API, Eamonn Smyth for also helping me with Google Maps API.
+
+I would like to especially thank Alexander from Code Institue student care for giving me a pep-talk when I felt like giving up halfway through this project. 
+If you so happen to read this, I am forever grateful for that chat.
 
 * Code Institute for the informative lessons and teachings they provided.
 
@@ -408,4 +440,4 @@ All of the tutors that helped me from tutor support, your advice and guidance he
 ## Disclaimer
 
 This project was created for educational use only. It has been part of studying at the Code Institute as part of their Full Stack Web Developer
-Course.
+Course.--
