@@ -1,24 +1,24 @@
 # Milestone Project 2 - Fest Finder
 View live project <a href="">here
 ***
-## Table of Contents:
+## Table of Contents
 * [What does it do and what does it need to fulfill?](#what-does-it-do-and-what-does-it-need-to-fulfill)
 * [User Experience](#user-experience)
    * [User Stories](#user-stories)
    * [Design](#design)
-       * [1. Colour Scheme](#1-color-scheme)
-       * [2. Font](#2-font)
-       * [3. Logo](#3-logo)
-       * [4. Geometry](#4-geometry)
-       * [5. Wireframes](#5-wireframes)
+       * [1. Colour Scheme](#colour-scheme)
+       * [2. Font](#font)
+       * [3. Logo](#logo)
+       * [4. Composition](#composition)
+       * [5. Wireframes](#wireframes)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-   * [Existing Features](#future-features)
-   * [Future Features](#removed-features)
+   * [Existing Features](#existing-features)
+   * [Future Features](#future-features)
 * [Testing](#testing)
 * [Deployment](#deployment)
-    * [Hosting on Github Pages](#hosting-on-github-pages)
-    * [Running Project Locally](#running-project-locally)
+    * [Host on Github Pages](#host-on-github-pages)
+    * [Running Project Locally](#run-your-project-locally)
 * [Credits](#credits)
     * [Content](#content)
     * [Code](#code)
@@ -43,9 +43,9 @@ mobile. The jQuery framework was used amoungst my own JavaScript code for easier
 
 
 ## **User Experience**
-<div style="text-align:center"><img src="assets/images/response.PNG" alt="Fest Finder Am I Responsive image"></div>
+![Visit Dingle - Am I Responsive](images/response.PNG)
 
-#### User Stories:
+## User Stories:
 
 * User Goals:
     * As a user, I want to be able to navigate through the entire site, comfortably and securely.
@@ -70,7 +70,7 @@ mobile. The jQuery framework was used amoungst my own JavaScript code for easier
 [Back to Top](#table-of-contents)
 
 #### Design
-##### 1. Colour Scheme
+##### Colour Scheme
 
 I chose colors that would be soothing and calming on first glance of the website, and not intrusive. The muted tones give the page a serene look
 and feel. This was important to me as my aim was to create an online space that promotes and represents a feeling of what colours can be pleasent for the user to look a. I feel like the light and dark purple contrast
@@ -92,8 +92,9 @@ The secondary color, Light Purple (bbbdf2), was used for the Navbar and the foot
 I also used a lighter shade of Purple (848d9c) for the footer also, to give it nice contrast. I think it went well with the original color of purple I have already selected throughout the site.
 <br>
 I used Light Baby Blue (95a0cf) as a color for when the user hovers over a button, I used a psuedo class for this.
+[Back to Top](#table-of-contents)
 
-##### 2. Font
+### Font
 
 I decided to use two fonts throught my site. I included these fonts by inserting an _import_ link of Google Fonts API into the top of my html documents<br>
 The font I chose for the body text on the pages was 'Roboto', with a fall back of 'Sans-serif' should the site not load the import correctly. I
@@ -101,7 +102,7 @@ found the 'Roboto' font was clear, easy to read and fed into the simple, minimal
  Clarity was important throughout my project and I felt as though Roboto was a safe, reliable font to use.
 When it came to font weight, I used to stock font weight for most of the page except the titles , I used the 'large' font size.
 
-##### 3. Logo
+###  Logo
 
 The logo was created using an online design tool called Free Logo Design. I created a custom canvas to fit my required dimensions and set the background to
 be transparent as I was using a transparent navbar. when it came to designing the logo I typically like a plain yet attrctive logo so I used a simple "Visit Dingle" text in the color white.
@@ -110,7 +111,7 @@ found on the website before you scroll when the navbar goes purple.
 It also matched the white font of my nav links on the navbar. I chose the font 'Roboto' for this text to match the font used for headings throughout the
 site, keeping a clear consistency. It suited the site's branding and complemented all my other design choices well. 
 
-##### 4. Composition
+### Composition
 
 There is a clear structure throughout the site. Each of the main pages has a hero image at the top with some text to engage the user. I also implemented content
 hinting on all the pages to encourage scrolling and more user interaction. 
@@ -120,7 +121,7 @@ on the home page ave it a nice touch which greeted the user with 2 pieces of inf
 The Google map on the Dingle page has been set to full
 width to keep the map easily readable across all screen sizes. 
 
-##### 5. Wireframes
+###  Wireframes
 
 Wireframes for this project were created using Figma. I did enjoy the wireframing part of this project because that is where I can 
 see if something will work or not on the site.
@@ -133,11 +134,11 @@ made during the planning stages. Find the links to these wireframes below:
 
 * [Contact Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-contact.png)
 
-[Back to Top](#table-of-contents)
+
 
  ## **Technologies Used**
 
- #### Languages
+ ### Languages
 
  * [HTML5](https://en.wikipedia.org/wiki/HTML5) - Language used to create the structure of the pages.
 
@@ -145,7 +146,7 @@ made during the planning stages. Find the links to these wireframes below:
 
 * [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Language used to create interactivity across the pages.
 
-#### Libraries, Frameworks and Editors
+### Libraries, Frameworks and Editors
 
 * [Bootstrap 4.5.0](https://getbootstrap.com/) - used to create basic HTML layout and structure and using Bootstrap's CSS Framwework. The
 resposnsive grid system was utilised well.
@@ -167,7 +168,8 @@ of the page, and the modal pop up on submission of the contact form.
 
 * [Google Images](https://google.com) - used to find images for use across the site.
 
-#### Tools
+[Back to Top](#table-of-contents)
+### Tools
 
 * [Google](https://www.google.com/) - was used for researching various techniques, styles and information.
 
@@ -232,7 +234,8 @@ the user easier navigation around the pages and the site.
 
 * Favicon Icon - When the user loads the web pages, a favicon image of "EIRE" appears in the tab at the top next to the
 name of the site. I picked EIRE for this because I felt as if it was a nice personal touch because Eire is Irish for Ireland
-
+ 
+ [Back to Top](#table-of-contents)
 #### Future Features
 
 * Gallery Page - A seperate page to showcase images of Dingle and visitors' experiences of the range of activities, drives, walks etc. on offer.
@@ -264,29 +267,31 @@ Business owner - *As the business owner I want to see a consistent style through
 design The footers are consistent across all 4 pages also. The header font used is consistent across the site and the font used is consistent for all paragraphs. The site is a well balanced site in regards to colors, It is easy on
 they eyes and is nicely designed throughout.
 
+[Back to Top](#table-of-contents)
 
 ### **Validating The Code:**
 - **HTML** I validated the HTML with the [W3C Markup Validation Service](https://validator.w3.org/)
 - **CSS** I validated the CSS with the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - **JavaScript** I validated the JavaScript with the [Esprima Syntax Validator](https://esprima.org/demo/validate.html)
 
-#### **Validation Results**
-##### **HTML**
+### **Validation Results**
+#### **HTML**
 - Home Page - No Errors Found
 - Dingle Page - No Errors Found
 - Contact Page - No Errors Found
 
-##### **CSS**
+#### **CSS**
 - No Errors Found
 
-
-##### **JavaScript**
-##### **main.js file**
+[Back to Top](#table-of-contents)
+ 
+#### **JavaScript**
+#### **main.js file**
 - 
 #### **maps.js file**
 -
 
-### **Testing on Different Browsers**
+## **Testing on Different Browsers**
 I manually tested the website on the following browsers:
 - Chrome
 - Safari
@@ -307,6 +312,8 @@ so I navigated to the Console in Chrome Developer Tools and I realized I was mis
 
 ## **Deployment**
 This project was developed in GitPod and deployed to the hosting platform [GitHub Pages](https://pages.github.com/)
+
+### Host on GitHub Pages
 
 I took the following steps to deploy Visit Dingle to Github pages.
 - Searched GiHub in Chrome browser and signed in using my GitHub account.
@@ -336,6 +343,7 @@ Saved changes to the website will appear here after refreshing the page.
 The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete. 
 It may take a moment for changes to appear on the hosted website.
 
+[Back to Top](#table-of-contents)
 
 ## **Credits**
 
@@ -365,6 +373,8 @@ A list of the websites I used for the links on my webpage below :
 * [Distillery Tours](https://dingle-distillery.appointedd.com/)
 
 * [Slea Head Drive](https://dingle-peninsula.ie/explore/slea-head-drive.html)
+
+[Back to Top](#table-of-contents)
 
 #### Code
 
@@ -400,7 +410,9 @@ The favicon image was created and exported to my computer using the site [Free L
 (https://favicon.io/) to be generated as an ico image, to then be exported back to my computer and then added to my root directory on gitpod.
 
 
+[Back to Top](#table-of-contents)
 ## **Acknowledgements**
+
 
 #### Pages used for inspiration
 
@@ -420,7 +432,7 @@ The favicon image was created and exported to my computer using the site [Free L
 
 * [YouTube](https://www.youtube.com/)
 
-
+[Back to Top](#table-of-contents)
 
 #### Special thanks
 
