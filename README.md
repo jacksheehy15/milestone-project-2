@@ -125,14 +125,12 @@ width to keep the map easily readable across all screen sizes.
 
 Wireframes for this project were created using Figma. I did enjoy the wireframing part of this project because that is where I can 
 see if something will work or not on the site.
-The final pages I ended up with on the website did not vary too much from the wireframes I
+The final pages I ended up with arent too different than my wireframes I believe.
 made during the planning stages. Find the links to these wireframes below:
 
-* [Home Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-home.png)
+![Visit Dingle - Am I Responsive](images/desktopwire.PNG)
 
-* [Dingle Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-activity.png)
-
-* [Contact Page Wireframe](https://github.com/Gregory4321/milestone-project-2/blob/master/assets/images/wire-contact.png)
+![Visit Dingle - Am I Responsive](images/phonewire.PNG)
 
 
 
