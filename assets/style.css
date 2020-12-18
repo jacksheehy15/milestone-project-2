@@ -1,195 +1,184 @@
 /*Body Work */
+
 body {
-    background-color: #edeff2;
-    font-family: sans-serif, serif;
+   background-color: #edeff2;
+   font-family: 'Roboto', sans-serif;
 }
 
-.title-font {
-   font-family: 'Anton', sans-serif;
-}
 
 .html {
    font-family: 'Roboto', sans-serif;
 }
+
+
 /*Festival Headers*/
-.fest-header{
-    font-size:  1.875em;
+
+.fest-header {
+   font-size: 1.875em;
 }
 
 
 /* NavBar Work */
 
-
-#navBar{
-    width: 100%;
-    height: 590px;
+#navBar {
+   width: 100%;
+   height: 590px;
 }
 
-#navbar{
-    word-spacing: 10px;
+#navbar {
+   word-spacing: 10px;
 }
 
 .navbar-logo {
-    width: 80px;
-    height: 80px;
+   width: 80px;
+   height: 80px;
 }
 
-body, html {
-    height: 100%;
+body,
+html {
+   height: 100%;
 }
 
 .navbar-text {
-    color: black;
+   color: black;
 }
 
 .fixed-top.scrolled {
-  background-color: #bbbdf2 !important;
-  transition: background-color 400ms linear;
-  z-index: 1;
+   background-color: #bbbdf2 !important;
+   transition: background-color 400ms linear;
+   z-index: 1;
 }
 
+
 /*Home Page Work*/
+
 .home-hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/dingle.jpg") ;
-  width: auto;
-  height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/dingle.jpg");
+   width: auto;
+   height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
 }
 
 .home-hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size:  1.875em;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 1.875em;
 }
 
 hr {
-    width:50%;
-    color: #848d9c;
+   width: 50%;
+   color: #848d9c;
 }
 
-/*Footer Work*/ 
+
+/*Footer Work*/
+
 .page-footer {
-    background-color: #bbbdf2;
+   background-color: #bbbdf2;
 }
+
 
 /*Icon Work*/
+
 .icon-black {
-    color: black;
+   color: black;
 }
 
 .copyright-footer {
-    background-color: #d3d4f5;
+   background-color: #d3d4f5;
 }
 
-/*Support Page Work*/ 
-.support-hero-image{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/contact1.jpg") ;
-  width: auto;
-  height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+
+/*Support Page Work*/
+
+.support-hero-image {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/contact1.jpg");
+   width: auto;
+   height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
 }
 
 .support-hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
 }
 
-/*Contact Page Work*/ 
-.dingle-hero-image{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/dunquin.jpg") ;
-  width: auto;
-  height: 600px;
- background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+
+/*Contact Page Work*/
+
+.dingle-hero-image {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/dunquin.jpg");
+   width: auto;
+   height: 600px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
 }
 
 .dingle-hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
 }
 
 #contact-border {
-    border: 2px solid #bbbdf2;
-    border-radius: 25px;
+   border: 2px solid #bbbdf2;
+   border-radius: 25px;
 }
 
+
 /*Navbar Styling*/
+
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: rgb(255,102,203);
-} 
+   border-color: rgb(255, 102, 203);
+}
+
 
 /* Modal Work */
+
 .modal-header {
-    background-color: #8facdb;
+   background-color: #8facdb;
 }
 
-/*FAQ Section*/
-h2 {
-    font-family: Arial, Verdana;
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: #091f2f;
-    text-transform: uppercase;
-}
-.accordion-section .panel-default > .panel-heading {
-    border: 0;
-    background: #f4f4f4;
-    padding: 0;
-}
-.accordion-section .panel-default .panel-title a {
-    display: block;
-    font-style: italic;
-    font-size: 1.5rem;
-}
-.accordion-section .panel-default .panel-title a:after {
-    font-family: 'FontAwesome';
-    font-style: normal;
-    font-size: 3rem;
-    content: "\f106";
-    color: #1f7de2;
-    float: right;
-    margin-top: -12px;
-}
-.accordion-section .panel-default .panel-title a.collapsed:after {
-    content: "\f107";
-}
-.accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
-}
 /*Map Work*/
+
 #map {
-    height: 500px;
-    width: 100%;
-    margin-bottom: 10px;
+   height: 500px;
+   width: 100%;
+   margin-bottom: 10px;
+   margin-top: 10px;
 }
- .btn:hover{
-     background-color: #bbbdf2;
- }
- 
+
+.btn:hover {
+   background-color: #4278f5;
+}
+
+.fab:hover{
+color: #4278f5;
+}
+

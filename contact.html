@@ -9,11 +9,9 @@
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
             type="text/css"
             />
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-            type="text/css"
-            />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+      crossorigin="anonymous" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
@@ -28,6 +26,7 @@
         <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
 </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script type="text/javascript">
    (function(){
       emailjs.init("user_ocoKSRGZtz4KqxaX4JBub");
@@ -62,7 +61,7 @@
 <!--Hero Images-->
 <div class="support-hero-image mb-5" alt="Sheep on cliff">
   <div class="support-hero-text">
-    <h1>Contact Us ! </h1>
+    <h1>Contact Us </h1>
   </div>
 </div>
 <hr>
@@ -96,12 +95,13 @@
         <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title text-center modal-head">Thank you</h4>
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title modal-head">Thank you</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
                     <div class="modal-body text-center modal-content">
-                        <p>We look forward to helping you with your query and we'll be in touch very soon. Please check your email for confirmation.<br>Dreckly ('Directly' in Cornish)</p>
+                        <p>Thanks for reaching out to us, we'll be in contact shortly !</p>
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -130,17 +130,17 @@
                                     >
                                     <h6 class="mb-0"><strong>Connect with Us on our social networks!</strong></h6>
                                 <hr>
-                                    <a class="fb-ic" href="https://www.facebook.com/" target="_blank">
-                                    <i class="fa fa-facebook-f icon-cog mr-4 icon-black"> </i>
+                                    <a class="fb-ic icon" href="https://www.facebook.com/" target="_blank">
+                                    <i class="fab fa-facebook-f icon-cog mr-4 icon-black"> </i>
                                     </a>
-                                    <a class="tw-ic" href="https://www.twitter.com/" target="_blank">
-                                    <i class="fa fa-twitter icon-cog  mr-4 icon-black"> </i>
+                                    <a class="tw-ic icon" href="https://www.twitter.com/" target="_blank">
+                                    <i class="fab fa-twitter icon-cog  mr-4 icon-black"> </i>
                                     </a>
-                                   <a class="trip-ic" href="https://www.tripadvisor.com/" target="_blank">
-                                   <i class="fa fa-tripadvisor icon-cog  mr-4 icon-black"></i>
+                                   <a class="trip-ic icon" href="https://www.tripadvisor.com/" target="_blank">
+                                   <i class="fab fa-tripadvisor icon-cog  mr-4 icon-black"></i>
                                    </a>
-                                    <a class="ins-ic" href="https://www.instagram.com/" target="_blank"> 
-                                    <i class="fa fa-instagram icon-cog  icon-black"> </i>
+                                    <a class="ins-ic icon" href="https://www.instagram.com/" target="_blank"> 
+                                    <i class="fab fa-instagram icon-cog  icon-black"> </i>
                                     </a>
                                 </div>
                             </div>
@@ -154,10 +154,9 @@
 <!--EmailJS Script-->
 <script src="assets/js/sendEmail.js"></script>
 <!--Google Map API-->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3CcVHyb-DqQWeFO0oq-QK6VO4CwKVh4c&callback=initMap&libraries=&v=weekly"
-      defer
-    ></script>
+ <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3CcVHyb-DqQWeFO0oq-QK6VO4CwKVh4c&libraries=places&callback=initMap">
+</script>
 <!-- CDNs -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

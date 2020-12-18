@@ -3,7 +3,7 @@ function sendMail(contactForm) {
     emailjs.send("gmail", "template_q4gpxvn", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
+        "message_query": contactForm.projectsummary.value
     })
     .then(
         function(response) {
@@ -13,4 +13,9 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
+    return false
 }
+
+$('#myForm').on('submit', function (e) {
+    $('#myModal').modal('show');
+});
