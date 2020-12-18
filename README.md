@@ -285,9 +285,9 @@ they eyes and is nicely designed throughout.
  
 #### **JavaScript**
 #### **main.js file**
-- 
+- No Errors Found
 #### **maps.js file**
--
+- No Errors Found
 
 ## **Testing on Different Browsers**
 I manually tested the website on the following browsers:
@@ -316,8 +316,8 @@ This project was developed in GitPod and deployed to the hosting platform [GitHu
 I took the following steps to deploy Visit Dingle to Github pages.
 - Searched GiHub in Chrome browser and signed in using my GitHub account.
 - Clicked on [My Repositories.](https://github.com/jacksheehy15?tab=repositories)
-- Navigated to [milestone-project-1.](https://github.com/jacksheehy15/milestone-project-1)
-- Selected [Settings.](https://github.com/jacksheehy15/milestone-project-1/settings)
+- Navigated to [milestone-project-2.](https://github.com/jacksheehy15/milestone-project-2)
+- Selected [Settings.](https://github.com/jacksheehy15/milestone-project-2/settings)
 - Scrolles down to the GitHub Pages are of the page.
 - Selected 'Master Branch' from the 'source' dropdown menu.
 - Confirmed my selection.
@@ -325,7 +325,7 @@ I took the following steps to deploy Visit Dingle to Github pages.
 
 ### Run your project locally
 - Have git installed.
-- Visit the [Repo.](https://github.com/jacksheehy15/milestone-project-1)
+- Visit the [Repo.](https://github.com/jacksheehy15/milestone-project-2)
 - Click 'Clone or Download' and copy the code for http.
 - Open your chosen IDE (Cloud9, Vs Code etc.)
 - Open a terminal for your root directory.
@@ -438,7 +438,7 @@ The favicon image was created and exported to my computer using the site [Free L
 * Antonio Rodriguez, my temporary mentor while Seun is on leave.
 
 * Tutor Support at Code Institute for accepting my request for more time and giving me the initial push that really got me going. 
-All of the tutors that helped me especially Miklos who helped my understand Maps API, Eamonn Smyth for also helping me with Google Maps API.
+All of the tutors that helped me especially Miklos who helped my understand Maps API, Eamonn Smyth for also helping me with Google Maps API and also Miklos, the tutor who helped me with the Map Markers.
 
 I would like to especially thank Alexander from Code Institue student care for giving me a pep-talk when I felt like giving up halfway through this project. 
 If you so happen to read this, I am forever grateful for that chat.
@@ -446,6 +446,12 @@ If you so happen to read this, I am forever grateful for that chat.
 * Code Institute for the informative lessons and teachings they provided.
 
 [Back to Top](#table-of-contents)
+
+##### Side Note
+- I encountered an Issue with my Google Map, where the marker content woild stay on the 1 marker, and also would not close. 
+I worked on this for a while with a tutor, and we worked on it for a while but I could not figure out where the problem was. 
+I came to terms with it, and due to the time I had left I wouldnt have been able to keep working on itso unfortunately I had to go on without it.
+
 
 ## Disclaimer
 
