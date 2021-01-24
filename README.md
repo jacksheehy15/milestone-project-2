@@ -1,5 +1,5 @@
 # Milestone Project 2 - Fest Finder
-View live project <a href="">here
+View live project <a href="https://jacksheehy15.github.io/milestone-project-2/index.html">here
 ***
 ## Table of Contents
 * [What does it do and what does it need to fulfill?](#what-does-it-do-and-what-does-it-need-to-fulfill)
