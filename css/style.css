@@ -53,7 +53,7 @@ html {
 /*Home Page Work*/
 
 .home-hero-image {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/dingle.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/images/dingle.jpg");
    width: auto;
    height: 600px;
    background-attachment: fixed;
@@ -100,7 +100,7 @@ hr {
 /*Support Page Work*/
 
 .support-hero-image {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/contact1.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/images/contact1.jpg");
    width: auto;
    height: 600px;
    background-attachment: fixed;
@@ -123,7 +123,7 @@ hr {
 /*Contact Page Work*/
 
 .dingle-hero-image {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/dunquin.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/images/dunquin.jpg");
    width: auto;
    height: 600px;
    background-attachment: fixed;
