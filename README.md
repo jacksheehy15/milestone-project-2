@@ -1,4 +1,4 @@
-# Milestone Project 2 - Fest Finder
+# Milestone Project 2 - Visit Dingle
 View live project <a href="https://jacksheehy15.github.io/milestone-project-2/index.html">here
 ***
 ## Table of Contents
